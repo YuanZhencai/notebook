@@ -24,7 +24,7 @@
 
 2.  填写vpn信息
 
-    ![2.png](images/vpn/3.png) 
+    ![2.png](images/vpn/2.png) 
 
 3.  连接vpn
 
