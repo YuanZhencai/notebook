@@ -20,12 +20,12 @@
 
 1.  进入添加vpn页面
 
-    ![1.png](images/vpn/1.png) 
+    ![1.png](1.png) 
 
 2.  填写vpn信息
 
-    ![2.png](images/vpn/2.png) 
+    ![2.png](2.png) 
 
 3.  连接vpn
 
-    ![3.png](images/vpn/3.png)
+    ![3.png](3.png)

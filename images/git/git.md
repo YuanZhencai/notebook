@@ -16,15 +16,15 @@
 
 3.  设置环境变量，让cmd中也可以使用git command
 
-    ![3.png](images/git/3.png)
+    ![3.png](3.png)
      
 4.  设置git 用户信息
 
-    ![4.png](images/git/4.png)
+    ![4.png](4.png)
 
 5.  进入文件夹，右击鼠标，点击 `git bash here`， 运行 git bash
     
-    ![5.png](images/git/5.png)
+    ![5.png](5.png)
 
 6.  常用命令，可以在Git Book 中查看具体怎么使用
 

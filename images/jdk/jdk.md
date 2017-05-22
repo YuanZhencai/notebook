@@ -16,23 +16,23 @@
 
 3.  设置环境变量，计算机→属性→高级系统设置→高级→环境变量
 
-    ![3.png](images/jdk/3.png) 
+    ![3.png](3.png) 
 
 4.  系统变量→新建 JAVA_HOME 变量，在变量值最后输入 `D:\Program Files\Java\jdk1.8.0_131`
 
-    ![4.png](images/jdk/4.png) 
+    ![4.png](4.png) 
 
 5.  系统变量→寻找 Path 变量→编辑，新建环境变量 `%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;`
 
-    ![5.png](images/jdk/5.png) 
+    ![5.png](5.png) 
 
 6.  系统变量→新建 CLASSPATH 变量，填入 `.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar`
 
-    ![6.png](images/jdk/6.png) 
+    ![6.png](6.png) 
 
 7.  检验是否配置成功，运行 `cmd`, 输入 `java -version`
 
-    ![7.png](images/jdk/7.png) 
+    ![7.png](7.png) 
 
 
 
