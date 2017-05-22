@@ -6,6 +6,8 @@
 
 [如何使用](https://www.imfreevpnn.com/howtouse.html)
 
+每天需要用VPN的时候在首页上注册下账号，就可以使用24小时
+
 服务器地址：
     
     server.vpn.imfreevpn
