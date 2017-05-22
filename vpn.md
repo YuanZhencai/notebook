@@ -1,10 +1,10 @@
 # Free VPN - 可以免费使用24小时的VPN
 
-[https://www.imfreevpn.org](首页)
+[首页](https://www.imfreevpn.org)
 
 ## 帮助
 
-[https://www.imfreevpnn.com/howtouse.html](如何使用)
+[如何使用](https://www.imfreevpnn.com/howtouse.html)
 
 服务器地址：
     
