@@ -15,3 +15,17 @@
 免费版支持 PPTP, LT2P (预共享秘钥：`imfreevpn`)
 
 由于使用方法很简单，请自行百度搜索使用教程。
+
+## win10
+
+1.  进入添加vpn页面
+
+    ![1.png](images/vpn/1.png) 
+
+2.  填写vpn信息
+
+    ![2.png](images/vpn/3.png) 
+
+3.  连接vpn
+
+    ![3.png](images/vpn/3.png)
