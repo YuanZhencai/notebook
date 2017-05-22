@@ -30,9 +30,12 @@
 
         git init
         git clone https://github.com/YuanZhencai/notebook.git
+        git remote -v
+        git remote add
         git status
         git pull
         git add .
         git commit -am "init"
         git checkout -b "example"
         git merge
+        git push
