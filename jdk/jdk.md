@@ -18,7 +18,7 @@
 
     ![3.png](3.png) 
 
-4.  系统变量→新建 JAVA_HOME 变量，在变量值最后输入 `D:\Program Files\Java\jdk1.8.0_131`
+4.  系统变量→新建 JAVA_HOME 变量，在变量值最后输入 `D:\Program Files\Java\jdk1.8.0_131`,注意是自己的java 安装目录！
 
     ![4.png](4.png) 
 
