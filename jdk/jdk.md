@@ -24,7 +24,7 @@
 
 5.  系统变量→寻找 Path 变量→编辑，新建环境变量 `%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;`
 
-    * win 7, 注意 ; 号不要少了
+    * win 7, 只要在后面添加 `;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin` 就好了，注意 ; 号不要少了
         
     ![5_1.png](5_1.png) 
 
