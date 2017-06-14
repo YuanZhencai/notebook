@@ -24,6 +24,12 @@
 
 5.  系统变量→寻找 Path 变量→编辑，新建环境变量 `%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;`
 
+    * win 7, 注意 ; 号不要少了
+        
+    ![5_1.png](5_1.png) 
+
+    * win 10
+    
     ![5.png](5.png) 
 
 6.  系统变量→新建 CLASSPATH 变量，填入 `.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar`
