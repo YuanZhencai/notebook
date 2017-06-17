@@ -10,6 +10,25 @@
 
 [https://gradle.org/install](https://gradle.org/install)
 
+1.  [下载](https://gradle.org/releases)
+
+2.  解压
+
+        unzip gradle-x.x-bin.zip
+
+3.  配置 *GRADLE_HOME* 环境变量
+
+    ![1.png](1.png)
+
+4. *%GRADLE%/bin* 添加到系统的 *PATH* 环境变量里
+
+    ![2.png](2.png)
+
+5.  测试, `gradle -v`
+
+    ![3.png](3.png)
+
+
 ## 阿里云镜像
 
 [init_scripts](https://docs.gradle.org/3.5/userguide/init_scripts.html)
