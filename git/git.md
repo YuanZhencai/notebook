@@ -49,7 +49,58 @@
         git checkout -b "example"
         git merge
         git push
-        
+8. ssh key
+
+在访问私有仓库的时候我们会用到用户名密码，但是由于每次操作都要输入用户名密码，很麻烦，所以用ssh key 来代替用户名密码去认证
+
+*   查看自己的秘钥
+
+```
+➜  ~ cd ~/.ssh
+➜  .ssh ls
+id_rsa      id_rsa.pub  known_hosts
+
+```
+
+*   生成秘钥
+
+```
+➜  .ssh ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/lining/.ssh/id_rsa):
+/Users/lining/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /Users/lining/.ssh/id_rsa.
+Your public key has been saved in /Users/lining/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:gRbgN4l2nZHdtq4VhHRlWXXeWz3GL25bMBTdnLfwcr4 lining@liningningdeMacBook-Pro.local
+The key's randomart image is:
++---[RSA 2048]----+
+|    ... .+.o..+=B|
+|   . . =.oo.+oo+O|
+|    + B +  o .++B|
+|   . + . .  oo.+=|
+|        S  . .B..|
+|            o. = |
+|           o  o o|
+|          .  . E |
+|              .  |
++----[SHA256]-----+
+
+```
+
+*   查看公钥
+
+```
+➜  .ssh cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQAB....
+```
+*   添加到公钥到自己的ssh-keys
+
+    ![2.png](2.png)
+
         
 ## SourceTree
    
