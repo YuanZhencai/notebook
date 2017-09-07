@@ -105,7 +105,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQAB....
 
 在项目开发的过程中有的时候会产生不需要提交的文件，比如一些 ide 产生的配置文件，只是针对本地的，所以不需要提交，这个时候我们就可以添加 `.gitignore` 文件来忽略这些文件。
 
-这个仓库是现在主流的代码的[.gitignore templates](https://github.com/github/gitignore.git)
+这个仓库是现在主流的代码的[.gitignore templates](https://github.com/github/gitignore.git)，直接找到适合自己项目的文件下载复制到自己项目中就好了
         
 ## SourceTree
    
