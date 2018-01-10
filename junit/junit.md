@@ -1,16 +1,15 @@
-# Junit断言
+# Junit
 
-[首页](http://junit.org/junit4/.md)
+[首页](http://junit.org/junit4/)
 
-
-## 断言方法
+## 断言
 
 1.检查两个变量或者等式是否平衡
-
+    
     void assertEquals(boolean expected, boolean actual)
 
 2.检查条件为真
-    
+
     void assertTrue(boolean expected, boolean actual)
 
 3.检查条件为假
@@ -36,7 +35,4 @@
 8.*assertArrayEquals()*  方法检查两个数组是否相等
 
     void assertArrayEquals(expectedArray, resultArray)
-
-
-
 
