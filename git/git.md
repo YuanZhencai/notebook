@@ -168,7 +168,7 @@
     
         ![third-rstudio.png](third-rstudio.png)
         
-    * 第三次在远端仓库修改统一行代码后提交，由于是在远端仓库编辑的，直接就是提交到代码仓库了
+    * 第三次在远端仓库修改同一行代码后提交，由于是在远端仓库编辑的，直接就是提交到代码仓库了
     
         ![third-remote.png](third-remote.png)
      
