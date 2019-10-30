@@ -170,7 +170,7 @@
         
     * 第三次在远端仓库修改统一行代码后提交，由于是在远端仓库编辑的，直接就是提交到代码仓库了
     
-        ![third-rstudio.png](third-rstudio.png)
+        ![third-remote.png](third-remote.png)
      
     * 在 `RStudio` 拉取代码会发现自动合并失败，因为有冲突
     
