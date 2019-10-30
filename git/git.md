@@ -106,6 +106,90 @@
 在项目开发的过程中有的时候会产生不需要提交的文件，比如一些 ide 产生的配置文件，只是针对本地的，所以不需要提交，这个时候我们就可以添加 `.gitignore` 文件来忽略这些文件。
 
 这个仓库是现在主流的代码的[.gitignore templates](https://github.com/github/gitignore.git)，直接找到适合自己项目的文件下载复制到自己项目中就好了
+
+
+## RStudio
+
+在 `RStudio` 里如何使用 `git`
+
+### 在命令行中使用
+
+1. 打开工具栏中的 `shell`
+
+    ![shell.png](shell.png)
+
+2. 执行 `git` 命令
+
+    ![shell-sample.png](shell-sample.png)
+
+### 可视化版本管理工具
+
+1. 创建项目
+    
+    ![new-project.png](new-project.png)
+
+2. 选择 `git`
+
+    ![git-project.png](git-project.png)
+ 
+3. 填写远端仓库地址 `https://code.aliyun.com/yuanzhencai/sample.git`
+
+    ![git-remote.png](git-remote.png)
+    
+4. 修改代码，后提交
+
+    ![first-commit.png](first-commit.png)
+    
+5. 填写提交信息，提交到本地仓库
+
+    ![commit-message.png](commit-message.png)
+
+6. 推送到远端仓库
+
+    ![git-push.png](git-push.png)
+    
+7. 修改远端仓库后提交代码
+
+    ![second-commit.png](second-commit.png)
+    
+8. 在 `Rstudio` 拉取变更
+    
+    ![git-pull.png](git-pull.png)
+    
+9. 拉取结果
+    
+    ![pull-result.png](pull-result.png)
+   
+10. 解决冲突
+
+    由于我们的项目会有多个人提交代码或者修改代码，难免会遇到两个人同时修改了同一行代码，在这个场景下 `git` 不知道应该取哪行代码是对的，所以需要手动解决冲突来告诉 `git` 哪行代码是对的，所以我们来模拟下同时编辑同一行代码的这个场景
+    
+    * 第三次用 `RStudio` 修改文件后提交到本地仓库，不要推送，远端仓库还是原来的代码
+    
+        ![third-rstudio.png](third-rstudio.png)
+        
+    * 第三次在远端仓库修改统一行代码后提交，由于是在远端仓库编辑的，直接就是提交到代码仓库了
+    
+        ![third-rstudio.png](third-rstudio.png)
+     
+    * 在 `RStudio` 拉取代码会发现自动合并失败，因为有冲突
+    
+        ![audo-merge-failed.png](audo-merge-failed.png)
+    
+    * 解决冲突后，重新提交到本地仓库
+    
+        ![fix-conficts.png](fix-conficts.png)
+        
+    * 推送到远端仓库
+    
+        ![push-result.png](push-result.png)
+        
+    * 远端仓库最新代码
+    
+        ![remote-result.png](remote-result.png)
+        
+        
+    
         
 ## SourceTree
    
