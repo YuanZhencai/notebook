@@ -151,7 +151,7 @@
 
 4. Remote 远程仓库
 
-    远程仓库也就是我们所说的服务器端，大家都从这来`git clone`代码，最后大家都需要把本地仓库的变更和这个同步。
+    远程仓库也就是我们所说的服务器端，大家都从这来`git clone`代码，最后大家都需要把本地仓库的变更和这个同步。比如 [github](https://github.com), [gitlab](https://gitlab.com),或者国内的 [阿里云code](https://code.aliyun.com), [coding](https://coding.net), [码云](https://gitee.com)
 
 ## RStudio
 
