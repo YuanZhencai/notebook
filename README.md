@@ -9,3 +9,4 @@
 *   [gradle](gradle/gradle.md)
 *   [maven](maven/maven.md)
 *   [junit](junit/junit.md)
+*   [shell](shell/shell.md)
